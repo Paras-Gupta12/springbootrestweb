@@ -16,8 +16,8 @@ public class EmployeeController {
 //    }
 
     @GetMapping(path = "/{employeeID}")
-    public EmployeeDTO getEmployeeByID(@PathVariable Long employeeID){
-        return new EmployeeDTO(employeeID, "Paras", "parasgupta3062000@gmail.com", 25 , LocalDate.of(2024, 01, 20), true);
+    public EmployeeDTO getEmployeeByID(@PathVariable(name = "employeeID") Long id){
+        return new EmployeeDTO(id, "Paras", "parasgupta3062000@gmail.com", 25 , LocalDate.of(2024, 01, 20), true);
     }
 
     @GetMapping
