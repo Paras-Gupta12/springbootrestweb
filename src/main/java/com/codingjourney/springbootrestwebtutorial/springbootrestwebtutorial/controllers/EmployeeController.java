@@ -20,6 +20,10 @@ public class EmployeeController {
         return new EmployeeDTO(employeeID, "Paras", "parasgupta3062000@gmail.com", 25 , LocalDate.of(2024, 01, 20), true);
     }
 
-
+    @GetMapping
+    public String getALLEmployees(@RequestParam(required = false) Long age,
+                                  @RequestParam(required = false) String name){
+        return "Hi age "+age+" "+name;
+    }
 
 }
