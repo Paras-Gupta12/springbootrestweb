@@ -26,4 +26,10 @@ public class EmployeeController {
         return "Hi age "+age+" "+sortBy;
     }
 
+    @PostMapping
+    public EmployeeDTO createNewEmployee(@RequestBody EmployeeDTO inputEmployee){
+        inputEmployee.setId(100L);
+        return inputEmployee;
+    }
+
 }
