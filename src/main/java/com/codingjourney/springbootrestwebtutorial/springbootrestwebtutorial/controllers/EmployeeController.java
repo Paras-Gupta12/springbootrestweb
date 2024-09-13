@@ -22,8 +22,8 @@ public class EmployeeController {
 
     @GetMapping
     public String getALLEmployees(@RequestParam(required = false) Long age,
-                                  @RequestParam(required = false) String name){
-        return "Hi age "+age+" "+name;
+                                  @RequestParam(required = false) String sortBy){
+        return "Hi age "+age+" "+sortBy;
     }
 
 }
