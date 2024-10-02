@@ -5,6 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>3.3.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -13,6 +14,16 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Spring Boot Web Tutorial</name>
 	<description>Demo project for Spring Boot and Spring Boot Web Tutorial</description>
+=======
+		<version>3.3.3</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.codingjourney.springbootrestwebtutorial</groupId>
+	<artifactId>springbootrestwebtutorial</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Spring Boot Rest Web Tutorial</name>
+	<description>Demo project for Spring Boot and Spring Boot Rest Web Tutorial</description>
+>>>>>>> 9854f89c9c6570c9846df0a7d64eb00306eb848b
 	<url/>
 	<licenses>
 		<license/>
@@ -37,6 +48,7 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
@@ -60,6 +72,8 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+=======
+>>>>>>> 9854f89c9c6570c9846df0a7d64eb00306eb848b
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
